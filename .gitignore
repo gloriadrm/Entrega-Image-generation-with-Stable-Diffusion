@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+*.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# Hugging Face / caches
+.cache/
+**/.cache/
+
+# Documentos
+documents/
+finetuned-model/ 
+
+
+
+
+
