@@ -20,7 +20,7 @@ Para intentar mitigarlo se redujo la resolución y el número de pasos de infere
 - En lugar de recortar imágenes, se aplica `resize + padding` hasta una resolución fija de `384x384`.
 - Después del entrenamiento, se guarda la `U-Net` fine-tuneada.
 - Para evaluar el resultado, se compara la generación del modelo base con la del modelo que usa la `U-Net` ajustada.
-- El modelo finetuneado (UNet) está disponible en Hugging Face en el enlace indicado en `hf_repo_link.txt` (público). También lo subimos a github. 
+- El modelo finetuneado (UNet) está disponible en Hugging Face en el enlace indicado en `hf_repo_link.txt` (público).
 
 ## Estructura del proyecto
 
